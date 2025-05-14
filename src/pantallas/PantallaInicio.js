@@ -70,7 +70,7 @@ const PantallaInicio = ({ navigation }) => {
         <View style={styles.bienvenida}>
           <Text style={styles.tituloBienvenida}>Bienvenido al Sistema de Registro de Notas</Text>
           <Text style={styles.subtituloBienvenida}>
-            Esta aplicación te permite evaluar presentaciones utilizando una rúbrica predefinida
+            Aqui puedes evaluar presentaciones 
           </Text>
         </View>
 
@@ -82,7 +82,7 @@ const PantallaInicio = ({ navigation }) => {
             <Text style={styles.opcionTitulo}>Nueva Evaluación</Text>
             <Text style={styles.opcionDescripcion}>Registra una nueva evaluación para un estudiante</Text>
           </TouchableOpacity>
-
+{/*
           <TouchableOpacity
             style={[styles.opcion, { backgroundColor: colores.secundario }]}
             onPress={navegarABuscarEvaluaciones}
@@ -90,7 +90,8 @@ const PantallaInicio = ({ navigation }) => {
             <Text style={styles.opcionTitulo}>Buscar Evaluaciones</Text>
             <Text style={styles.opcionDescripcion}>Consulta evaluaciones realizadas anteriormente</Text>
           </TouchableOpacity>
-
+}*/
+          /*
           <TouchableOpacity
             style={[styles.opcion, { backgroundColor: colores.info }]}
             onPress={() => navigation.navigate('Estadisticas')}
@@ -98,6 +99,7 @@ const PantallaInicio = ({ navigation }) => {
             <Text style={styles.opcionTitulo}>Estadísticas</Text>
             <Text style={styles.opcionDescripcion}>Ver resumen estadístico de las evaluaciones</Text>
           </TouchableOpacity>
+          */}
         </View>
 
         <View style={styles.seccionAyuda}>
