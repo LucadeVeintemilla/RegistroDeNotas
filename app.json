@@ -3,7 +3,6 @@
     "name": "Registro de Notas",
     "slug": "registro-de-notas",
     "version": "1.0.0",
-    "sdkVersion": "53.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -26,10 +25,6 @@
     },
     "web": {
       "favicon": "./assets/icon.png"
-    },
-    "plugins": [
-      "expo-font",
-      "expo-sqlite"
-    ]
+    }
   }
 }
